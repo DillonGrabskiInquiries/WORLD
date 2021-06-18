@@ -1,0 +1,35 @@
+//1
+
+SELECT name FROM countries WHERE languages = slovene;
+SELECT language FROM languages WHERE languages = slovene;
+SELECT percentage FROM languages WHERE languages = slovene;
+
+//2
+
+SELECT name FROM countries;
+SELECT * FROM cities;
+
+//3
+
+SELECT cities FROM mexico WHERE population > 500000;
+
+//4
+
+SELECT * FROM languages WHERE language > 89%;
+
+//5
+
+SELECT * FROM countries WHERE surface_area < 501 & population > 500000;
+
+//6
+
+SELECT * FROM countries WHERE government_form = "Constitutional Monarchy" & life_expectancy > 75;
+
+//7
+
+SELECT * FROM cities WHERE district = "Buenos Aires" & population > 500000;
+
+//8
+
+SELECT region FROM countries;
+SELECT cities FROM region;
